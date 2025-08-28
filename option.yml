@@ -1,0 +1,21 @@
+client:
+  domain:
+    html:
+    - jm18c-tin.club
+  impl: html
+  postman:
+    meta_data:
+      proxies: system
+  retry_times: 5
+dir_rule:
+  base_dir: jmDownload/
+  rule: Bd_Aid_Pindex
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: null
+  threading:
+    image: 30
+    photo: 16
+log: false
